@@ -1,0 +1,50 @@
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-transform: capitalize;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.gameboard {  
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  margin: 1rem;
+}
+
+.message{
+  font-size: 1.5rem;
+  font-weight: 600px;
+}
+
+.field{
+  width: 150px;
+  height: 150px;
+  border: 2px solid #000000;
+}
+
+button{
+  padding: 0.8rem;
+  font-size: 1.2rem;
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 0.4rem;
+  outline: none;
+  transition: color 1s ease-in-out, background-color 1s ease-in-out;
+}
+
+button:hover{
+  color: #000000;
+  background-color: #ffffff;
+}
+
+div.field{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 6rem;
+}
